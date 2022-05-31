@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #181818;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  padding: 0.5em;
+}
+
+button {
+  margin: 0.5em;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+
+form {
+  white-space: nowrap;
+}
+
+input {
+  font-size: 1rem;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.messages {
+  padding: 1em;
+}
+
+.message {
+  padding: 1em;
+}
